@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+
+    "name": "Symfony PR Template",
+    "description": "This extension automatically adds a PR template when creating a PR for symfony.",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["*://github.com/*/*/compare/*", "*://www.github.com/*/*/compare/*"],
+            "js": ["symfony-pr.js"]
+        }
+    ]
+}
