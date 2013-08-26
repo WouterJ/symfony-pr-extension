@@ -12,7 +12,14 @@
     margin-top:50px;
 }
 
-.download{
+.installation{
     width:750px;
     margin:0 auto;
+    font-size:1.2em;
+}
+
+.usage{
+    margin-top:50px;
+    border-top:1px solid #ddd;
+    padding-top:10px;
 }

@@ -14,57 +14,68 @@
     </div>
 
     <div class=container>
-        <h1 class=download>
-            <a href="symfony-pr.crx" class="btn  btn-primary  btn-lg">Download</a> the extension and contribute to OSS!
-        </h1>
+        <div class="panel  panel-default  installation">
+            <div class="panel-heading">
+                <h3 class=panel-title>Installation</h3>
+            </div>
+            <div class=panel-body>
+                <ol>
+                    <li>Open chrome using the <code>--enable-easy-off-store-extension-install</code> flag</li>
+                    <li><a href="symfony-pr.crx" class="btn  btn-primary  btn-sm">Download</a> and install the extension</li>
+                    <li>Go back to contributing!</li>
+                </ol>
+            </div>
+        </div>
 
-        <h2>Usage</h2>
+        <div class=usage>
+            <h2>Usage</h2>
 
-        <p>This extension detects when you are submitting a pull request for a repository that is using the Symfony rules<sup><a href="#fn1">[1]</a></sup>. It'll add the <a href="http://symfony.com/doc/current/contributing/code/patches.html#make-a-pull-request">code</a> or <a href="http://symfony.com/doc/current/contributing/documentation/overview.html#pull-request-format">documentation</a> pull request template in the description.</p>
+            <p>This extension detects when you are submitting a pull request for a repository that is using the Symfony rules<sup><a href="#fn1">[1]</a></sup>. It'll add the <a href="http://symfony.com/doc/current/contributing/code/patches.html#make-a-pull-request">code</a> or <a href="http://symfony.com/doc/current/contributing/documentation/overview.html#pull-request-format">documentation</a> pull request template in the description.</p>
 
-        <h3>Conventions</h3>
+            <h3>Conventions</h3>
 
-        <p>It'll also try to fill in some answers, based on some conventions.</p>
+            <p>It'll also try to fill in some answers, based on some conventions.</p>
 
-        <h4>Bug Fixes</h4>
+            <h4>Bug Fixes</h4>
 
-        <p>When a branch is called <code>fix_12</code>, <code>fix-12</code> or <code>fix/12</code>, the extension assumes it is fixing a bug reported in issue #12.</p>
+            <p>When a branch is called <code>fix_12</code>, <code>fix-12</code> or <code>fix/12</code>, the extension assumes it is fixing a bug reported in issue #12.</p>
 
-        <h4>Adding Features</h4>
+            <h4>Adding Features</h4>
 
-        <p>When a branch starts with <code>add</code> (and <code>doc</code> or <code>document</code> for documentation repos), the extension assumes it is adding a new feature.</p>
+            <p>When a branch starts with <code>add</code> (and <code>doc</code> or <code>document</code> for documentation repos), the extension assumes it is adding a new feature.</p>
 
-        <h3 id=fn1>Supported Repositories</h3>
-        <p>Currently, the following repositories are detected:</p>
-        <ul>
-            <li>symfony/symfony</li>
-            <li>symfony/symfony-standard</li>
-            <li>symfony/symfony-docs</li>
-            <li>symfony-cmf/symfony-cmf-docs</li>
-            <li>symfony-cmf/BlockBundle</li>
-            <li>symfony-cmf/BlogBundle</li>
-            <li>symfony-cmf/cmf-utils</li>
-            <li>symfony-cmf/ContentBundle</li>
-            <li>symfony-cmf/CoreBundle</li>
-            <li>symfony-cmf/CreateBundle</li>
-            <li>symfony-cmf/DoctrinePHPCRBundle</li>
-            <li>symfony-cmf/MediaBundle</li>
-            <li>symfony-cmf/MenuBundle</li>
-            <li>symfony-cmf/Routing</li>
-            <li>symfony-cmf/RoutingAutoBundle</li>
-            <li>symfony-cmf/RoutingBundle</li>
-            <li>symfony-cmf/RoutingExtraBundle</li>
-            <li>symfony-cmf/SearchBundle</li>
-            <li>symfony-cmf/SimpleCmsBundle</li>
-            <li>symfony-cmf/SonataAdminBundle</li>
-            <li>symfony-cmf/SonataBlockBundle</li>
-            <li>symfony-cmf/symfony-cmf-standard</li>
-            <li>symfony-cmf/cmf-sandbox</li>
-            <li>symfony-cmf/symfony-cmf-website</li>
-            <li>symfony-cmf/symfony-cmf</li>
-            <li>symfony-cmf/Testing</li>
-            <li>symfony-cmf/TreeBrowserBundle</li>
-        </ul>
+            <h3 id=fn1>Supported Repositories</h3>
+            <p>Currently, the following repositories are detected:</p>
+            <ul>
+                <li>symfony/symfony</li>
+                <li>symfony/symfony-standard</li>
+                <li>symfony/symfony-docs</li>
+                <li>symfony-cmf/symfony-cmf-docs</li>
+                <li>symfony-cmf/BlockBundle</li>
+                <li>symfony-cmf/BlogBundle</li>
+                <li>symfony-cmf/cmf-utils</li>
+                <li>symfony-cmf/ContentBundle</li>
+                <li>symfony-cmf/CoreBundle</li>
+                <li>symfony-cmf/CreateBundle</li>
+                <li>symfony-cmf/DoctrinePHPCRBundle</li>
+                <li>symfony-cmf/MediaBundle</li>
+                <li>symfony-cmf/MenuBundle</li>
+                <li>symfony-cmf/Routing</li>
+                <li>symfony-cmf/RoutingAutoBundle</li>
+                <li>symfony-cmf/RoutingBundle</li>
+                <li>symfony-cmf/RoutingExtraBundle</li>
+                <li>symfony-cmf/SearchBundle</li>
+                <li>symfony-cmf/SimpleCmsBundle</li>
+                <li>symfony-cmf/SonataAdminBundle</li>
+                <li>symfony-cmf/SonataBlockBundle</li>
+                <li>symfony-cmf/symfony-cmf-standard</li>
+                <li>symfony-cmf/cmf-sandbox</li>
+                <li>symfony-cmf/symfony-cmf-website</li>
+                <li>symfony-cmf/symfony-cmf</li>
+                <li>symfony-cmf/Testing</li>
+                <li>symfony-cmf/TreeBrowserBundle</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
