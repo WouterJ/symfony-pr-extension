@@ -1,0 +1,6 @@
+{
+    "name": "Symfony PR extension",
+    "dependencies": {
+        "bootstrap": "3.0.*"
+    }
+}
